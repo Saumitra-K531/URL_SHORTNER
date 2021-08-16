@@ -4,15 +4,14 @@
 ```
 $ curl -X POST http://<IP>:5000/?input_url='https://google.com'
 ```
-### Use IP from output of
-#### '$ python3 app.py'  **Installation on Local Machine(Step 6)**
- OR 
-#### '$ docker build - < Dockerfile' for docker build **Run application using docker build(Step 2)**
-
 Output
 ```
 {"Shortened_URL":"http://url_shortner.com/1"}
 ```
+### Use IP from output of
+#### '$ python3 app.py'  **Installation on Local Machine(Step 6)**
+ OR 
+#### '$ docker build - < Dockerfile' for docker build **Run application using docker build(Step 2)**
 --------------------------------
 ## Installation on Local Machine
 1. Clone this repository
